@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+body{
+    font-family: "Mali", cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(233, 151, 233);
+    background-color: rgb(255, 237, 237);
+    max-width: 300px;
+    height: 420px;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+.title{
+    color: rgb(233, 151, 233);
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.color_image{
+    display: flex;
+}
+.server_image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.server_image2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.plus{
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(233, 151, 233);
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.chose_color{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.first{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.second{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.third{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.user_answer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.user_answer_input{
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+.see_btn{
+    background-color: rgb(233, 151, 233);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+}
+.answerColor{
+    color: rgb(233, 151, 233);
+    font-size: 15px;
+}
